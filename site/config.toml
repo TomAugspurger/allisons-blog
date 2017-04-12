@@ -129,14 +129,17 @@ paginate = 10
 			message = "Message"
 			submit = "Send message"
 
-
-# Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 0
+    name = "Home"
+    url  = "/"
+    weight = 0
 
 [[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = 10
+    name = "About"
+    url  = "about"
+    weight = 5
+
+[[menu.main]]
+    name = "Blog"
+    url  = "post/"
+    weight = 10
